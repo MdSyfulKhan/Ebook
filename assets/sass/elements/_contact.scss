@@ -1,0 +1,45 @@
+.cs_contact_form {
+  .cs_form_field.cs_style1 {
+    position: relative;
+    border: 1px solid rgba(137, 137, 137, 0.31);
+    border-radius: 3px;
+    height: 55px;
+    margin-bottom: 60px;
+    &.cs_last_child{
+      margin-bottom: 35px;
+    }
+    
+    label {
+      position: absolute;
+      top: -35px;
+      display: block;
+      font-size: 14px;
+      color: $primary;
+    }
+    input {
+      font-size: 14px;
+      color: $primary;
+      width: 100%;
+      height: 100%;
+      border: none;
+      outline: none;
+      padding-left: 15px;      
+      padding-right: 15px;      
+    }
+    select{
+      height: 100%;
+      width: 100%;
+      border: none;
+      outline: none;
+      color: $secondary;
+      padding-left: 15px;
+      -webkit-appearance: none;
+    }
+  }
+
+  .cs_btn.cs_style1 {
+    width: 142px;
+    height: 58px;
+    transition: all 0.4s ease;
+  }
+}

@@ -1,0 +1,32 @@
+.cs_slider.cs_style1{
+  .slick_slide_in{
+    padding: 0 15px;
+  }
+  .pagination.cs_style1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    .slick-dots{
+      margin: 0;
+      padding: 0;
+      li{
+        display: inline-block;
+        height: 12px;
+        width: 12px;
+        background-color: rgba($accent, 0.4);
+        border-radius: 50%;
+        margin-right: 13px;
+        &:last-child{
+          margin: 0;
+        }
+        > button{
+          display: none;
+        }
+        &.slick-active{
+          border: 1px solid $white;
+          background-color: $accent;
+        }
+      }
+    }
+  }
+}

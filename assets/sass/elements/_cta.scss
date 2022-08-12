@@ -1,0 +1,47 @@
+.cs_cta.cs_style1 {
+	.cs_section_heading{
+		margin-bottom: 30px;
+	}
+	.cs_section_heading_text{
+		margin-bottom: 30px;
+	}
+	.cs_btn {
+		width: 240px;
+		height: 75px;
+		padding: 10px;
+		svg {
+			margin-right: 20px;
+			height: 34px;
+			width: 34px;
+		}
+		.cs_ios_icon {
+			fill: $white;
+		}
+		&:hover .cs_ios_icon {
+			fill: $accent;
+		}
+		.cs_google_play_icon {
+			fill: $accent;
+		}
+		&:hover .cs_google_play_icon {
+			fill: $white;
+		}
+		&:hover .cs_white_color {
+			color: $primary;
+		}
+		&:hover .cs_primary_color {
+			color: $white;
+		}
+	}
+	.cs_btn_info {
+		transition: all 0.3s ease;
+		div {
+			line-height: 28px;
+		}
+		h2 {
+			line-height: 110%;
+			margin: 0;
+			transition: inherit;
+		}
+	}
+}

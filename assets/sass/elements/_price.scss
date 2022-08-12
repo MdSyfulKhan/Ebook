@@ -1,0 +1,80 @@
+.cs_pricing_table.cs_style1 {
+  background-color: $white;
+  padding-top: 65px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  text-align: center;
+  transition: all 0.4s ease;
+  &.cs_active {
+    position: relative;
+    &::before {
+      position: absolute;
+      content: attr(pricing-popular-data);
+      height: 35px;
+      width: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $accent;
+      color: $white;
+    }
+    .cs_btn {
+      color: $white;
+      background: $accent;
+    }
+  }
+  &:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+  }
+
+  .cs_pricing_heading {
+    margin-bottom: 22px;
+    text-transform: capitalize;
+  }
+  .cs_pricing_price {
+    display: inline-block;
+    margin-right: 50px;
+    margin-bottom: 0;
+  }
+  .cs_pricing_text {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .cs_pricing_feature_list li {
+    text-align: left;
+    height: 48px;
+    line-height: 48px;
+    border-bottom: 0.5px solid #fafafa;
+    color: #767676;
+    &:last-child {
+      border: none;
+      margin-bottom: 25px;
+    }
+  }
+
+  .cs_icon {
+    margin-right: 18px;
+    &.fa-check + * {
+      color: $primary;
+    }
+    &.fa-check {
+      color: $accent;
+    }
+  }
+  .cs_btn {
+    height: 45px;
+    width: 203px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    &:hover {
+      transform: translateY(-1px);
+    }
+  }
+}

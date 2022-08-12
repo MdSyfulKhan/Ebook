@@ -1,0 +1,45 @@
+.cs_hero.cs_style1 {
+  height: 778px;
+  background-position: bottom center;
+  position: relative;
+  .cs_hero_heading {
+    margin-bottom: 46px;
+    display: inline-block;
+    > * {
+      position: relative;
+      display: inline-block;
+      svg {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+    }
+  }
+  .cs_hero_text {
+    margin-bottom: 27.38px;
+  }
+  .cs_btn {
+    height: 52px;
+    width: 186px;
+  }
+  .cs_hero_img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    z-index: 1;
+  }
+  .cs_hero_info{
+    position: relative;
+    z-index: 11;
+  }
+}
+@media only screen and (max-width:568px){
+  .cs_hero.cs_style1{
+    .cs_hero_img{
+      display: none;
+    }
+  }
+}

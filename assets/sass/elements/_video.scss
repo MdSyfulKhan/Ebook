@@ -1,0 +1,47 @@
+.cs_video{
+  
+  .cs_video_block.cs_style1{
+    position: relative;
+    transition: all 0.4s ease;
+    .cs_video_block_img{
+      height: 460px;
+      width: 100%;
+    }
+    .cs_video_play_btn{
+      height: 72px;
+      width: 72px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      svg{
+        fill: $accent;
+        transition: inherit;
+      }
+      &:hover svg{
+        fill: $white;
+      }
+    }
+  }
+  
+  .cs_video_cart.cs_style1{
+    position: relative;
+    padding-left: 60px;
+    padding-right: 10px;
+    margin-right: 10px;
+    width: 100%;
+    max-width: 290px;
+    &:last-child{
+      margin: 0;
+    }
+    .cs_video_cart_icon{
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}

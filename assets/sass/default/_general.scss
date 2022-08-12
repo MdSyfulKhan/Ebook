@@ -1,0 +1,275 @@
+/*--------------------------------------------------------------
+3. General Style
+----------------------------------------------------------------*/
+
+
+
+
+.cs_mp0 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1145px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cs_text_center{
+  text-align: center;
+}
+.cs_text_left{
+  text-align: left;
+}
+
+.cs_btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+hr {
+  margin: 0;
+  width: 100%;
+  border-color: $border;
+}
+
+img {
+  max-width: 100%;
+}
+.cs_flex{
+  display: flex;
+}
+.cs_hidden{
+  display: none;
+}
+
+.cs_flex_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cs_vertical_middle {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  .cs_vertical-middle-in {
+    width: 100%;
+  }
+}
+
+.cs_flex_space_between {
+  display: flex ;
+  justify-content: space-between;
+}
+
+.cs_bg {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.cs_sticky_footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.cs_zoom{
+  transition: all 0.4s ease;
+  .cs_zoom_in{
+    transform: scale(1.1);
+  }
+}
+
+.cs_section_head{
+  .cs_section_heading{
+    margin-bottom: 24px;
+  }
+  .cs_section_heading_text{
+    margin-bottom: 22px;
+  }
+}
+
+.cs_seperator {
+  position: relative;
+  height: 1px;
+  width: 62px;
+  background-color: $primary;
+  margin: auto;
+  &::before {
+    position: absolute;
+    content: "";
+    height: 5.7px;
+    width: 5.7px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $accent;
+    border-radius: 50%;
+  }
+}
+
+.cs_border {
+  border-width: 1px;
+  border-style: solid;
+}
+.cs_primary_border{
+  border-color: $accent;
+}
+.cs_accent_border{
+  border-color: $accent;
+} 
+
+.cs_opacity_07 {
+  opacity: 0.7;
+}
+
+.cs_radius_5 {
+  border-radius: 5px;
+}
+
+.cs_radius_8 {
+  border-radius: 8px;
+}
+
+.cs_radius_10 {
+    border-radius: 10px;
+  }
+
+.cs_radius_12 {
+  border-radius: 12px;
+}
+
+.cs_normal {
+  font-weight: 400;
+}
+
+.cs_medium {
+  font-weight: 500;
+}
+
+.cs_semi-bold {
+  font-weight: 600;
+}
+
+.cs_bold {
+  font-weight: 700;
+}
+
+.cs_font_12 {
+  font-size: 12px;
+}
+
+.cs_font_14 {
+  font-size: 14px;
+}
+
+.cs_font_15 {
+  font-size: 15px;
+}
+
+.cs_font_16 {
+  font-size: 16px;
+}
+
+.cs_font_18 {
+  font-size: 18px;
+}
+
+.cs_font_20 {
+  font-size: 20px;
+}
+
+.cs_font_22 {
+  font-size: 22px;
+}
+
+.cs_font_24 {
+  font-size: 24px;
+}
+
+.cs_font_26 {
+  font-size: 26px;
+}
+.cs_font_32 {
+  font-size: 32px;
+}
+
+.cs_font_40 {
+  font-size: 40px;
+}
+
+.cs_font_48 {
+  font-size: 48px;
+}
+
+.cs_font_64 {
+  font-size: 64px;
+}
+
+.cs_transparent_bg,
+.cs_transparent_bg_hover:hover {
+  background-color: transparent;
+}
+
+.cs_white_color,
+.cs_white_color_hover:hover {
+  color: $white;
+}
+.cs_white_bg,
+.cs_white_bg_hover:hover {
+  background-color: $white;
+}
+
+.cs_black_color,
+.cs_black_color_hover:hover {
+  color: $black;
+}
+.cs_black_bg,
+.cs_black_bg_hover:hover {
+  background-color: $black;
+}
+
+.cs_primary_color,
+.cs_primary_color_hover:hover {
+  color: $primary;
+}
+.cs_primary_bg,
+.cs_primary_bg_hover:hover {
+  background-color: $primary;
+}
+
+.cs_secondary_color,
+.cs_secondary_color_hover:hover {
+  color: $secondary;
+}
+.cs_secondary_bg,
+.cs_secondary_bg_hover:hover {
+  background-color: $secondary;
+}
+
+.cs_tertiary_color,
+.cs_tertiary_color_hover:hover {
+  color: $tertiary;
+}
+.cs_tertiary_bg,
+.cs_tertiary_bg_hover:hover {
+  background-color: $tertiary;
+}
+
+.cs_accent_color,
+.cs_accent_color_hover:hover {
+  color: $accent;
+}
+.cs_accent_bg,
+.cs_accent_bg_hover:hover {
+  background-color: $accent;
+}

@@ -1,0 +1,30 @@
+.cs_about.cs_style1{
+    padding-left: 15px;
+    .cs_section_heading{
+        margin-bottom: 15px;
+    }
+    .cs_section_sub_heading{
+        margin-bottom: 40px;
+    }
+
+    .cs_about_text.cs_text_col_1{
+        margin-bottom: 15px;
+    }
+
+    .cs_about_text.cs_text_col_2{
+        margin-bottom: 35px;
+    }
+
+    .cs_about_signature{
+        margin-bottom: 35px;
+    }
+
+    .cs_about_link{
+        height: 37px;
+        width: 37px;
+        margin-right: 10px;
+        &:lacs_child{
+            margin: 0;
+        }
+    }
+}

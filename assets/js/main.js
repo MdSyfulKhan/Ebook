@@ -1,3 +1,7 @@
+
+new WOW().init();
+AOS.init();
+
 $(function () {
   mainNav();
   dynamicBackground();

@@ -5,7 +5,7 @@
  Version: 1.0.0
  */
 
- /*Helvatica Fonts*/
+/*Helvatica Fonts*/
 //  @import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
 /*--------------------------------------------------------------
 >> TABLE OF CONTENTS:
@@ -23,7 +23,7 @@ body,
 html {
   color: $secondary;
   background-color: $white;
-  font-family: 'Helvetica Neue', sans-serif;;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.6em;
@@ -40,7 +40,7 @@ h6 {
   color: $primary;
   padding: 0;
   margin: 0 0 10px 0;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-weight: 700;
   line-height: 1.2em;
 }
@@ -117,7 +117,8 @@ a:hover {
   color: inherit;
 }
 @media screen and (max-width: 991px) {
-body, html {
+  body,
+  html {
     font-size: 14px;
-}
+  }
 }

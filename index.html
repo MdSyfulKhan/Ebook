@@ -12,7 +12,10 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/plugin/slick.css">
+  <link rel="stylesheet" href="assets/css/plugin/animate.css">
   <link rel="stylesheet" href="assets/css/style.css">
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -49,6 +52,9 @@
   <main>
     <!--Start:Hero section-->
     <section class="cs_hero cs_style1 cs_bg cs_vertical_middle" data-src="assets/img/hero/hero-bg.png">
+      <div class="cs_hero_img wow"  data-wow-duration="2s" data-aos="flip-left">
+        <img src="assets/img/hero/books.png" alt="">
+      </div>
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
@@ -71,36 +77,36 @@
           </div>
         </div>
       </div>
-      <div class="cs_hero_img">
-        <img src="assets/img/hero/books.png" alt="">
+      <div class="cs_scroll">
+        <div class="cs_icon"></div>
       </div>
     </section>
     <!--End:Hero section-->
 
     <!--Start:Fanfact section-->
     <section>
-      <div class="cs_height_lg_b120 cs_height_b120"></div>
+      <div class="cs_height_lg_b80 cs_height_b110"></div>
       <div class="container">
         <div class="cs_funfact_container cs_flex_space_between">
           <div class="cs_funfact cs_style1">
             <h2 class="cs_funfact_number cs_font_48 cs_font_md_38">120</h2>
             <p class="cs_funfact_heading cs_primary_color">Pages</p>
-            <div class="cs_height_lg_b30 cs_height_b30"></div>
+            <div class="cs_height_lg_b20 cs_height_b20"></div>
           </div>
           <div class="cs_funfact cs_style1">
             <h2 class="cs_funfact_number cs_font_48 cs_font_md_38">532</h2>
             <p class="cs_funfact_heading cs_primary_color">Buyers</p>
-            <div class="cs_height_lg_b30 cs_height_b30"></div>
+            <div class="cs_height_lg_b20 cs_height_b20"></div>
           </div>
           <div class="cs_funfact cs_style1">
             <h2 class="cs_funfact_number cs_font_48 cs_font_md_38">260</h2>
             <p class="cs_funfact_heading cs_primary_color">Likes</p>
-            <div class="cs_height_lg_b30 cs_height_b30"></div>
+            <div class="cs_height_lg_b20 cs_height_b20"></div>
           </div>
           <div class="cs_funfact cs_style1">
             <h2 class="cs_funfact_number cs_font_48 cs_font_md_38">130</h2>
             <p class="cs_funfact_heading cs_primary_color">Comments</p>
-            <div class="cs_height_lg_b30 cs_height_b30"></div>
+            <div class="cs_height_lg_b20 cs_height_b20"></div>
           </div>
         </div>
       </div>
@@ -109,7 +115,7 @@
     <!--End:Fanfact section-->
 
     <!--Start: Iconbox section-->
-    <section class="cs_iconbox">
+    <section class="cs_iconbox cs_overflow_hidden">
       <div class="container">
         <div class="cs_section_head cs_text_center">
           <h2 class="cs_section_heading cs_font_48 cs_font_md_38">Services provide for you</h2>
@@ -122,7 +128,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="cs_iconbox cs_style1 cs_tertiary_bg_hover cs_white_bg cs_radius_12">
+            <div class="cs_iconbox cs_style1 cs_tertiary_bg_hover cs_white_bg cs_radius_12 wow fadeInUpBig" data-wow-duration="1.1s">
               <div class="cs_iconbox_in">
                 <div class="cs_iconbox_icon cs_flex_center cs_radius_12">
                   <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -147,7 +153,7 @@
             <div class="cs_height_lg_b30 cs_height_b30"></div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="cs_iconbox cs_style1 cs_tertiary_bg_hover cs_white_bg cs_radius_12">
+            <div class="cs_iconbox cs_style1 cs_tertiary_bg_hover cs_white_bg cs_radius_12 wow  fadeInUpBig" data-wow-duration="1.3s">
               <div class="cs_iconbox_in">
                 <div class="cs_iconbox_icon cs_flex_center cs_radius_12">
                   <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -168,7 +174,7 @@
             <div class="cs_height_lg_b30 cs_height_b30"></div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="cs_iconbox cs_style1 cs_tertiary_bg_hover cs_white_bg cs_radius_12">
+            <div class="cs_iconbox cs_style1 cs_tertiary_bg_hover cs_white_bg cs_radius_12 wow  fadeInUpBig" data-wow-duration="1.5s">
               <div class="cs_iconbox_in">
                 <div class="cs_iconbox_icon cs_flex_center cs_radius_12">
                   <svg width="47" height="45" viewBox="0 0 47 45" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -200,7 +206,7 @@
             <div class="cs_height_lg_b30 cs_height_b30"></div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="cs_iconbox cs_style1  cs_tertiary_bg_hover cs_white_bg cs_radius_12">
+            <div class="cs_iconbox cs_style1  cs_tertiary_bg_hover cs_white_bg cs_radius_12 wow  fadeInUpBig" data-wow-duration="1.7s">
               <div class="cs_iconbox_in">
                 <div class="cs_iconbox_icon cs_flex_center cs_radius_12">
                   <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -221,7 +227,7 @@
             <div class="cs_height_lg_b30 cs_height_b30"></div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="cs_iconbox cs_style1 cs_tertiary_bg_hover cs_white_bg cs_radius_12">
+            <div class="cs_iconbox cs_style1 cs_tertiary_bg_hover cs_white_bg cs_radius_12 wow  fadeInUpBig" data-wow-duration="1.9s">
               <div class="cs_iconbox_in">
                 <div class="cs_iconbox_icon cs_flex_center cs_radius_12">
                   <svg width="37" height="39" viewBox="0 0 37 39" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -250,7 +256,7 @@
             <div class="cs_height_lg_b30 cs_height_b30"></div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="cs_iconbox cs_style1 cs_tertiary_bg_hover cs_white_bg cs_radius_12">
+            <div class="cs_iconbox cs_style1 cs_tertiary_bg_hover cs_white_bg cs_radius_12 wow  fadeInUpBig" data-wow-duration="2s">
               <div class="cs_iconbox_in">
                 <div class="cs_iconbox_icon cs_flex_center cs_radius_12">
                   <svg width="41" height="39" viewBox="0 0 41 39" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -294,10 +300,10 @@
           <div class="cs_height_lg_b50 cs_height_b50"></div>
         </div>
       </div>
-      <div class="container">
+      <div class="container cs_overflow_hidden">
         <div class="row">
           <div class="col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-8 offset-sm-2">
-            <div class="cs_video_block cs_style1">
+            <div class="cs_video_block cs_style1 wow fadeInUpBig" data-wow-duration="1.4s">
               <div class="cs_video_block_img" data-src="assets/img/video/vdo-bg.png">
               </div>
               <a href="https://www.youtube.com/embed/z3TgmTi42ic"
@@ -306,7 +312,6 @@
                   <path
                     d="M10.8764 7.68912C11.4295 8.08825 11.4295 8.91175 10.8764 9.31088L1.58521 16.0162C0.923843 16.4935 1.87809e-07 16.021 2.2346e-07 15.2053L8.0966e-07 1.79465C8.45312e-07 0.979046 0.923842 0.50647 1.58521 0.983769L10.8764 7.68912Z" />
                 </svg>
-
               </a>
             </div>
           </div>
@@ -315,7 +320,7 @@
       <div class="cs_height_lg_b65 cs_height_b65"></div>
       <div class="container">
         <div class="cs_video_card_container cs_flex_center cs_direction_column">
-          <div class="cs_video_cart cs_style1">
+          <div class="cs_video_cart cs_style1 wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
             <div class="cs_video_cart_icon">
               <svg width="40" height="28" viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -330,7 +335,7 @@
               assets that are-driven qualiied </div>
               <div class="cs_height_lg_b30 cs_height_b30"></div>
           </div>
-          <div class="cs_video_cart cs_style1">
+          <div class="cs_video_cart cs_style1 wow fadeInRightBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
             <div class="cs_video_cart_icon">
               <svg width="40" height="28" viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -351,17 +356,17 @@
     <!--End: Video section-->
 
     <!--Start: cta section-->
-    <section class="cs_cta cs_style1">
+    <section class="cs_cta cs_style1 cs_overflow_hidden">
       <div class="cs_height_lg_b135 cs_height_b135"></div>
       <div class="container">
         <div class="row cs_vertical_middle">
           <div class="col-lg-7">
-            <div class="cs_cta_thumbnail">
+            <div class="cs_cta_thumbnail wow fadeInUpBig">
               <img src="assets/img/cta/cta_bg.png" alt="">
             </div>
           </div>
           <div class="col-lg-5">
-            <div class="cs_cta_info">
+            <div class="cs_cta_info wow fadeInRightBig">
               <h2 class="cs_section_heading cs_font_48 cs_font_md_38">// Work anywhere,<br> with any device</h2>
               <p class="cs_section_heading_text">These companies release their own versions of the
                 operating
@@ -428,7 +433,7 @@
             gravida.<br> Magna velit vitae blandit dictum.</p>
         </div>
       </div>
-      <div class="cs_height_b120 cs_height_lg_b120"></div>
+      <div class="cs_height_b45 cs_height_lg_b45"></div>
       <div class="container">
         <div class="cs_slider cs_style1">
           <div class="slick_container" data-autoplay="1" data-loop="1" data-speed="600" data-center="0"
@@ -623,13 +628,13 @@
       <div class="container">
         <div class="row cs_vertical_middle">
           <div class="col-lg-6 col-md-6">
-            <div class="cs_about_thumbnail">
+            <div class="cs_about_thumbnail wow  wow fadeInLeftBig">
               <img class="w-100" src="assets/img/about/pp.png" alt="Photo">
             </div>
             <div class="cs_height_lg_b30 cs_height_b30"></div>
           </div>
           <div class="col-lg-6 col-md-6">
-            <div class="cs_about cs_style1">
+            <div class="cs_about cs_style1 wow  wow fadeInRightBig">
               <h2 class="cs_section_heading cs_font_48 cs_font_md_38">// About Author</h2>
               <h3 class="cs_section_sub_heading cs_accent_color cs_font_24 cs_font_md_20">Tom Morision</h3>
               <p class="cs_about_text cs_text_col_1 cs_primary_color">We have best ebook offers for you
@@ -691,7 +696,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-6 col-sm-6">
-            <div class="cs_blog_post cs_style1">
+            <div class="cs_blog_post cs_style1 wow fadeInRightBig" data-wow-delay="0.1s">
               <a href="#" class="cs_blog_post_thumbnail">
                 <img src="assets/img/blog/blog1.png" alt="photo">
               </a>
@@ -728,7 +733,7 @@
             <div class="cs_height_lg_b30 cs_height_b30"></div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-6">
-            <div class="cs_blog_post cs_style1">
+            <div class="cs_blog_post cs_style1 wow fadeInRightBig" data-wow-delay="0.2s">
               <a href="#" class="cs_blog_post_thumbnail">
                 <img src="assets/img/blog/blog3.png" alt="photo">
               </a>
@@ -765,7 +770,7 @@
             <div class="cs_height_lg_b30 cs_height_b30"></div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-6">
-            <div class="cs_blog_post cs_style1">
+            <div class="cs_blog_post cs_style1 wow fadeInRightBig" data-wow-delay="0.3s">
               <a href="#" class="cs_blog_post_thumbnail">
                 <img src="assets/img/blog/blog2.png" alt="photo">
               </a>
@@ -1056,6 +1061,7 @@
 
   <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
   <script src="assets/js/plugin/jquery.slick.min.js"></script>
+  <script src="assets/js/plugin/wow.min.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
 

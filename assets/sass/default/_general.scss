@@ -14,12 +14,15 @@
 
 a {
   text-decoration: none;
+  &:hover {
+    color: $accent;
+  }
 }
 
-.cs_text_center{
+.cs_text_center {
   text-align: center;
 }
-.cs_text_left{
+.cs_text_left {
   text-align: left;
 }
 
@@ -38,14 +41,14 @@ hr {
 img {
   max-width: 100%;
 }
-.cs_flex{
+.cs_flex {
   display: flex;
 }
-.cs_hidden{
+.cs_hidden {
   display: none;
 }
 
-.cs_overflow_hidden{
+.cs_overflow_hidden {
   overflow: hidden;
 }
 
@@ -65,7 +68,7 @@ img {
 }
 
 .cs_flex_space_between {
-  display: flex ;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -83,19 +86,10 @@ img {
   overflow: hidden;
 }
 
-.cs_zoom{
+.cs_zoom {
   transition: all 0.4s ease;
-  .cs_zoom_in{
+  .cs_zoom_in {
     transform: scale(1.1);
-  }
-}
-
-.cs_section_head{
-  .cs_section_heading{
-    margin-bottom: 24px;
-  }
-  .cs_section_heading_text{
-    margin-bottom: 22px;
   }
 }
 
@@ -116,10 +110,11 @@ img {
     border-radius: 50%;
     animation: separator 5s infinite;
     @keyframes separator {
-      0% , 100%{
+      0%,
+      100% {
         left: 0;
       }
-      50%{
+      50% {
         left: calc(100% + -6px);
       }
     }
@@ -130,12 +125,12 @@ img {
   border-width: 1px;
   border-style: solid;
 }
-.cs_primary_border{
+.cs_primary_border {
   border-color: $accent;
 }
-.cs_accent_border{
+.cs_accent_border {
   border-color: $accent;
-} 
+}
 
 .cs_opacity_07 {
   opacity: 0.7;
@@ -150,78 +145,11 @@ img {
 }
 
 .cs_radius_10 {
-    border-radius: 10px;
-  }
+  border-radius: 10px;
+}
 
 .cs_radius_12 {
   border-radius: 12px;
-}
-
-.cs_normal {
-  font-weight: 400;
-}
-
-.cs_medium {
-  font-weight: 500;
-}
-
-.cs_semi-bold {
-  font-weight: 600;
-}
-
-.cs_bold {
-  font-weight: 700;
-}
-
-.cs_font_12 {
-  font-size: 12px;
-}
-
-.cs_font_14 {
-  font-size: 14px;
-}
-
-.cs_font_15 {
-  font-size: 15px;
-}
-
-.cs_font_16 {
-  font-size: 16px;
-}
-
-.cs_font_18 {
-  font-size: 18px;
-}
-
-.cs_font_20 {
-  font-size: 20px;
-}
-
-.cs_font_22 {
-  font-size: 22px;
-}
-
-.cs_font_24 {
-  font-size: 24px;
-}
-
-.cs_font_26 {
-  font-size: 26px;
-}
-.cs_font_32 {
-  font-size: 32px;
-}
-
-.cs_font_40 {
-  font-size: 40px;
-}
-
-.cs_font_48 {
-  font-size: 48px;
-}
-
-.cs_font_64 {
-  font-size: 64px;
 }
 
 .cs_transparent_bg,

@@ -76,7 +76,7 @@ p {
 ul {
   margin: 0 0 15px 0;
   padding-left: 15px;
-  lics_style: square outside none;
+  list-style: square outside none;
 }
 
 ol {
@@ -116,9 +116,147 @@ a:hover {
   text-decoration: none;
   color: inherit;
 }
+
+// font size 
+.cs_font_12 {
+  font-size: 12px;
+}
+.cs_font_14 {
+  font-size: 14px;
+}
+.cs_font_15 {
+  font-size: 15px;
+}
+.cs_font_16 {
+  font-size: 16px;
+}
+.cs_font_18 {
+  font-size: 18px;
+}
+.cs_font_20 {
+  font-size: 20px;
+}
+.cs_font_22 {
+  font-size: 22px;
+}
+.cs_font_24 {
+  font-size: 24px;
+}
+.cs_font_26 {
+  font-size: 26px;
+}
+.cs_font_32 {
+  font-size: 32px;
+}
+.cs_font_40 {
+  font-size: 40px;
+}
+.cs_font_48 {
+  font-size: 48px;
+}
+.cs_font_64 {
+  font-size: 64px;
+}
+
+// site fonts 
+.cs_normal {
+  font-weight: 400;
+}
+.cs_medium {
+  font-weight: 500;
+}
+.cs_semi-bold {
+  font-weight: 600;
+}
+.cs_bold {
+  font-weight: 700;
+}
+
 @media screen and (max-width: 991px) {
   body,
   html {
     font-size: 14px;
+  }
+
+  .cs_font_md_12 {
+    font-size: 12px;
+  }
+  .cs_font_md_14 {
+    font-size: 14px;
+  }
+  .cs_font_md_15 {
+    font-size: 15px;
+  }
+  .cs_font_md_16 {
+    font-size: 16px;
+  }
+  .cs_font_md_18 {
+    font-size: 18px;
+  }
+  .cs_font_md_20 {
+    font-size: 20px;
+  }
+  .cs_font_md_22 {
+    font-size: 22px;
+  }
+  .cs_font_md_24 {
+    font-size: 24px;
+  }
+  .cs_font_md_26 {
+    font-size: 26px;
+  }
+  .cs_font_md_32 {
+    font-size: 32px;
+  }
+  .cs_font_md_40 {
+    font-size: 40px;
+  }
+  .cs_font_md_48 {
+    font-size: 48px;
+  }
+  .cs_font_md_64 {
+    font-size: 64px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cs_font_sm_12 {
+    font-size: 12px;
+  }
+  .cs_font_sm_14 {
+    font-size: 14px;
+  }
+  .cs_font_sm_15 {
+    font-size: 15px;
+  }
+  .cs_font_sm_16 {
+    font-size: 16px;
+  }
+  .cs_font_sm_18 {
+    font-size: 18px;
+  }
+  .cs_font_sm_20 {
+    font-size: 20px;
+  }
+  .cs_font_sm_22 {
+    font-size: 22px;
+  }
+  .cs_font_sm_24 {
+    font-size: 24px;
+  }
+  .cs_font_sm_26 {
+    font-size: 26px;
+  }
+  .cs_font_sm_32 {
+    font-size: 32px;
+  }
+  .cs_font_sm_40 {
+    font-size: 40px;
+  }
+  .cs_font_sm_48 {
+    font-size: 48px;
+  }
+  .cs_font_sm_64 {
+    font-size: 64px;
   }
 }

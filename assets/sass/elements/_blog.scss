@@ -8,8 +8,8 @@
     transition: all 0.4s ease;
     border: 1px solid #dfe1e4;
     &:hover {
-      box-shadow: 0px 4px 25px 6px rgba(179, 190, 201, 0.22);
-      transform: translateY(-5px);
+      box-shadow: 0px 4px 25px 6px rgba(179, 190, 201, 0.2);
+      transform: translateY(-3px);
     }
     .cs_blog_post_thumbnail {
       overflow: hidden;
@@ -23,9 +23,9 @@
         }
       }
     }
-    .cs_blog_post_meta {
-      display: flex;
-      margin-bottom: 20px;
+    .cs_blog_post_meta,
+    .cs_blog_post_heading{
+      margin-bottom: 10px;
     }
     .cs_blog_post_date,
     .cs_blog_post_comment {
@@ -37,23 +37,14 @@
       }
     }
     .cs_blog_post_comments {
-      margin-left: 8px;
-      &:hover {
-        color: $accent;
-      }
+      margin-left: 20px;
     }
     .cs_blog_post_info {
       padding: 20px 25px;
     }
-    .cs_blog_post_heading {
-      margin-bottom: 25px;
-      line-height: 25px;
-      a:hover {
-        color: $accent;
-      }
-    }
+    
     .cs_blog_post_post_author {
-      height: 70px;
+      height: 60px;
       display: flex;
       align-items: center;
       border-top: 1px solid rgba(108, 118, 132, 0.22);

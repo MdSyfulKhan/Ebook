@@ -149,8 +149,28 @@ a:hover {
   font-size: 26px;
 }
 
+.cs_font_28 {
+  font-size: 26px;
+}
+
+.cs_font_30 {
+  font-size: 26px;
+}
+
 .cs_font_32 {
   font-size: 32px;
+}
+
+.cs_font_34 {
+  font-size: 34px;
+}
+
+.cs_font_36 {
+  font-size: 36px;
+}
+
+.cs_font_38 {
+  font-size: 38px;
 }
 
 .cs_font_40 {
@@ -213,8 +233,23 @@ a:hover {
   .cs_font_md_26 {
     font-size: 26px;
   }
+  .cs_font_md_28 {
+    font-size: 28px;
+  }
+  .cs_font_md_30 {
+    font-size: 30px;
+  }
   .cs_font_md_32 {
     font-size: 32px;
+  }
+  .cs_font_md_34 {
+    font-size: 34px;
+  }
+  .cs_font_md_36 {
+    font-size: 36px;
+  }
+  .cs_font_md_38 {
+    font-size: 38px;
   }
   .cs_font_md_40 {
     font-size: 40px;
@@ -255,8 +290,23 @@ a:hover {
   .cs_font_sm_26 {
     font-size: 26px;
   }
+  .cs_font_sm_28 {
+    font-size: 28px;
+  }
+  .cs_font_sm_30 {
+    font-size: 30px;
+  }
   .cs_font_sm_32 {
     font-size: 32px;
+  }
+  .cs_font_sm_34 {
+    font-size: 34px;
+  }
+  .cs_font_sm_36 {
+    font-size: 36px;
+  }
+  .cs_font_sm_38 {
+    font-size: 38px;
   }
   .cs_font_sm_40 {
     font-size: 40px;
@@ -1176,6 +1226,7 @@ img {
   left: 0;
   right: 0;
   bottom: 0;
+  width: 100%;
 }
 
 .cs_hero.cs_style1 .cs_hero_text {
@@ -1193,6 +1244,7 @@ img {
 }
 
 .cs_hero.cs_style1 .cs_hero_img {
+  padding: 50px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1252,9 +1304,17 @@ img {
   }
 }
 
-@media only screen and (max-width: 568px) {
+@media only screen and (max-width: 991px) {
+  .cs_hero.cs_style1 {
+    display: initial;
+    background-color: rgba(73, 185, 113, 0.1) !important;
+    background-image: none !important;
+  }
   .cs_hero.cs_style1 .cs_hero_img {
-    display: none;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+            transform: translate(-50%);
   }
 }
 
@@ -1289,6 +1349,10 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     width: 50%;
+    -webkit-filter: drop-shadow(0px 0px 15px rgba(203, 203, 203, 0.25));
+            filter: drop-shadow(0px 0px 15px rgba(203, 203, 203, 0.25));
+    background: #fff;
+    padding-top: 25px;
   }
 }
 
@@ -1633,6 +1697,14 @@ img {
   margin-right: 15px;
 }
 
+@media only screen and (max-width: 778px) {
+  .cs_flex_space_between.cs_vertical_middle {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
 .cs_pricing_table.cs_style1 {
   background-color: #fff;
   padding-top: 65px;
@@ -1788,12 +1860,15 @@ img {
 }
 
 .cs_contact_form .cs_form_field.cs_style1 textarea {
-  height: 150px;
   width: 100%;
   border: none;
   outline: none;
   color: #939594;
   padding: 15px;
+  height: 150px;
+  max-height: 300px;
+  overflow-x: auto;
+  resize: vertical;
 }
 
 .cs_contact_form .cs_btn.cs_style1 {
@@ -1846,8 +1921,8 @@ img {
   border-radius: inherit;
   background-color: transparent;
   padding-left: 18px;
-  font-size: 12px;
-  color: rgba(59, 59, 59, 0.49);
+  font-size: 14px;
+  color: rgba(59, 59, 59, 0.75);
 }
 
 .cs_newsletter .cs_icon_btn {

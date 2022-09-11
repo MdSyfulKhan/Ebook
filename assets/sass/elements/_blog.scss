@@ -58,3 +58,8 @@
     }
   }
 }
+@media only screen and (max-width:778px) {
+  .cs_flex_space_between.cs_vertical_middle{
+    align-items: flex-start;
+  }
+}
